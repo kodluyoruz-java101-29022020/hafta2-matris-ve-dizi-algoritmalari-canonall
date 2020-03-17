@@ -18,9 +18,9 @@ public class Main {
 		List<Integer> repeatingNumbers = ArrayOperations.findRepeatingNumbers(array);
 
 		if (repeatingNumbers.size() == 0) {
-			System.out.print("No dublicate numbers in the array");
+			System.out.print("No duplicate numbers in the array");
 		} else {
-			System.out.print("Repeating numbers:");
+			System.out.print("Duplicate numbers:");
 			ArrayOperations.printList(repeatingNumbers);
 		}
 
